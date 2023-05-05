@@ -1,5 +1,12 @@
-body{
+.MainPage{
 	background-image:url("IMG/spolarium.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.SecondaryPage{
+	background-image:url("IMG/blurred-spol.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -17,8 +24,9 @@ body{
   color: white;
   text-decoration: none;
   font-size: 17px;
-  width: 17%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  width: 15%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
   text-align: center; /* If you want the text to be centered */
+  margin-top: 30px;
 }
 
 .navbar a:hover {
@@ -42,6 +50,15 @@ body{
     text-align: left; /* If you want the text to be left-aligned on small screens */
   }
 }
+
+.navbar img{
+	display: inline;
+	width: 15%;
+	float:left;
+	margin-top: 10px;
+	margin-bottom:10px;
+}
+
 hr{
 	height: 10px;
 	width: 100%;
@@ -70,6 +87,6 @@ hr{
 	font-family: "The Seasons", "Segoe UI", Times, sans-serif;
 	font-size: 1.80em;
 	text-align: center;
-	margin-top:5px;
+	margin-top:10px;
 	margin-bottom:5px;
 }
