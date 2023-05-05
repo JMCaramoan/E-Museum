@@ -1,8 +1,3 @@
-body {
-	margin: 0;
-	padding: 0;
-}
-
 .MainPage{
 	background-image:url("IMG/spolarium.png");
 	background-repeat: no-repeat;
@@ -32,6 +27,7 @@ body {
   width: 12%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
   text-align: center; /* If you want the text to be centered */
   margin-top: 30px;
+  transition: 0.5s;
 }
 
 .navbar a:hover {
@@ -39,7 +35,6 @@ body {
 	-moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
 	box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
 	transform: scale(1.01);
-	transition: 0.5s;
 	text-decoration: underline;
 }
 
@@ -75,6 +70,15 @@ hr{
 	border: none; width: 50%; 
 	margin-top: 0px;
 	margin-bottom: 5%;
+}
+
+.hr2{
+	height: 10px;
+	width: 100%;
+	display:block;
+	background-image: url("IMG/hr2.png"); 
+	background-repeat: no-repeat; 
+	margin:5px;
 }
 
 .prjTitle{
