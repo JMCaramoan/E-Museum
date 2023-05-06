@@ -1,0 +1,204 @@
+.MainPage{
+	background-image:url("IMG/Spoliarium.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+body{ 
+margin:0;
+padding:0;
+}
+
+.SecondaryPage{
+	background-image:url("IMG/blurred-spol.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+
+
+hr{
+	height: 10px;
+	width: 100%;
+	float:left;
+	background-color: #420c09; 
+	border: none; 
+	width: 50%; 
+	margin-top: 0px;
+	margin-bottom: 5%;
+}
+
+.hr2{
+	height: 10px;
+	width: 100%;
+	display:block;
+	background-image: url("IMG/hr2.png"); 
+	background-repeat: no-repeat; 
+	margin:5px;
+}
+
+.prjTitle{
+	color: #fff;
+}
+
+.prjTitle h1{
+	font-family: "The Seasons", "Engravers MT", Times, serif;
+	font-size: 8em;
+	text-align: center;
+	margin-bottom:5px;
+	color: #ceb180;
+	text-shadow: 5px 5px 2px #413900;
+	
+}
+
+.prjTitle h3{
+	font-family: "The Seasons", "Segoe UI", Times, sans-serif;
+	font-size: 1.80em;
+	text-align: center;
+	margin-top:10px;
+	margin-bottom:5px;
+	color: #dcd7a0;
+	text-shadow: 3px 3px 2px #928000;
+}
+
+.logopng{
+	height: 100px;
+	width: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+header {
+    background: #181818;
+    height: 100px;
+    padding-top: 20px;
+	background-color: #420c09; 
+}
+.inner {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0px 20px;
+    position: relative;
+	color: white; 
+}
+.logo {
+    text-decoration: none;
+    color: #777;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 40px;
+}
+h1 {
+    text-align: center;
+    width: 100%;
+    margin-top: 120px;
+    color: #eee;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+nav > ul {
+    float: right;
+}
+nav > ul > li {
+    text-align: center;
+    line-height: 40px;
+    margin-left: 70px;
+
+}
+nav > ul li ul li {
+    width: 100%;
+    text-align: left;
+	background-color: #420c09;
+}
+nav ul li:hover {
+    cursor: pointer;
+    position: relative;
+}
+nav ul li:hover > ul {
+    display: block;
+}
+nav ul li:hover > a {
+    color: #777;
+}
+nav > ul > li > a {
+    cursor: pointer;
+    display: block;
+    outline: none;
+    width: 100%;
+    text-decoration: none;
+	
+}
+nav > ul > li {
+    float: left;
+}
+nav a {
+    color: white;
+}
+nav > ul li ul {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    z-index: 2000;
+}
+nav > ul li ul li > a {
+    text-decoration: none;
+}
+[type="checkbox"],
+label {
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    nav ul {
+        display: none;
+    }
+    label {
+        display: block;
+        background: #222;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        position: absolute;
+        right: 20px;
+        top: 0px;
+    }
+    label:after {
+        content: '';
+        display: block;
+        width: 30px;
+        height: 5px;
+        background: #777;
+        margin: 7px 5px;
+        box-shadow: 0px 10px 0px #777, 0px 20px 0px #777
+    }
+    [type="checkbox"]:checked ~ ul {
+        display: block;
+        z-index: 9999;
+        position: absolute;
+        right: 20px;
+        left: 20px;
+    }
+    nav a {
+        color: #777;
+    }
+    nav ul li {
+        display: block;
+        float: none;
+        width: 100%;
+        text-align: left;
+        background: #222;
+        text-indent: 20px;
+    }
+    nav > ul > li {
+        margin-left: 0px;
+    }
+    nav > ul li ul li {
+        display: block;
+        float: none;
+ 
