@@ -1,0 +1,79 @@
+.name{
+	color:#fff;
+	text-align:center;
+	font-size:50px;
+	margin:0px;
+}
+
+.about h3{
+	font-family: "The Seasons", "Segoe UI", Times, sans-serif;
+	text-align:center;
+	margin:5px 0px 2px 0px;
+	font-size: 30px;
+}
+
+.title{
+	font-family: "The Seasons", "Engravers MT", Times, serif;
+	text-align:center;
+	font-size: 50px;
+}
+
+p{
+	font-family: "The Seasons", "Segoe UI", Times, sans-serif;
+	color:#fff;
+	font-size: 17px;
+}
+
+.frames1{
+	margin: 50px 5px 10px 70px;
+	display: inline;
+	height: 200px;
+	width: 200px;
+	float: left;
+}
+.frames2{
+	margin: 50px 70px 10px 5px;
+	display: inline;
+	height: 200px;
+	width: 200px;
+	float: right;
+}
+
+.authorFrame{
+	height: 200px;
+	width: 200px;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tables1{
+	margin-top:130px;
+	padding-left: 25%;
+}
+
+.tables2{
+	margin-top:100px;
+	padding-left: 68%;
+}
+
+.tables2 table{
+	display: inline;
+}
+.tables1 img{
+	height: 35px;
+	width:35px;
+}
+.tables2 img{
+	height: 35px;
+	width:35px;
+}
+.tables1, .tables2 td{
+	text-decoration:none;
+	font-style: bold;
+	font-size: 20px;
+}
+
+td{
+	color: #000;
+}
