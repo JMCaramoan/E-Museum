@@ -1,0 +1,23 @@
+.title{
+	font-family: "The Seasons", "Engravers MT", Times, serif;
+	text-align:center;
+	font-size: 40px;
+	margin-bottom:0px;
+	text-decoration: overline;
+}
+
+.MV img{
+	display: block;
+	width: 25%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 0px;
+	margin-bottom:20px;
+}
+
+.MV h4{
+	font-family: "The Seasons", "Bebas Neue", Times, sans-serif;
+	text-align:center;
+	margin-top:0px;
+	padding-top:0px;
+}
