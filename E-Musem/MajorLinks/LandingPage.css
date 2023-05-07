@@ -30,14 +30,7 @@ hr{
 	margin-bottom: 5%;
 }
 
-.hr2{
-	height: 10px;
-	width: 100%;
-	display:block;
-	background-image: url("../IMG/hr2.png"); 
-	background-repeat: no-repeat; 
-	margin:5px;
-}
+
 
 .prjTitle{
 	color: #fff;
@@ -104,12 +97,21 @@ h1 {
 nav > ul {
     float: right;
 }
+
 nav > ul > li {
     text-align: center;
     line-height: 40px;
     margin-left: 70px;
-
 }
+
+ul > .outer li {
+    list-style-position: inside;
+	list-style-type: none;
+	min-width: 150px;
+	max-width: 750px;
+	padding-left: 10px;
+}
+
 nav > ul li ul li {
     width: 100%;
     text-align: left;
@@ -201,4 +203,4 @@ label {
     nav > ul li ul li {
         display: block;
         float: none;
- 
+	}
