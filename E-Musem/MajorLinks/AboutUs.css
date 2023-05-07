@@ -7,6 +7,7 @@
 
 .about h3{
 	font-family: "The Seasons", "Segoe UI", Times, sans-serif;
+	color: #fff;
 	text-align:center;
 	margin:5px 0px 2px 0px;
 	font-size: 30px;
@@ -76,4 +77,13 @@ p{
 
 td{
 	color: #000;
+}
+
+.hr2{
+	height: 20px;
+	width: 300px;
+	display:block;
+	background-color: transparent; 
+	background-repeat: no-repeat;
+	margin:2px auto;
 }
