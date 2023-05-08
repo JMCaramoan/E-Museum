@@ -105,12 +105,18 @@ nav > ul > li {
 }
 
 ul > .outer li {
-    list-style-position: inside;
+	list-style-position: inside;
 	list-style-type: none;
 	min-width: 150px;
 	max-width: 750px;
 	padding-left: 10px;
+	margin-left:0px;
 }
+
+ul{
+	padding-left:0px;
+	margin-left:-15px;
+	}
 
 nav > ul li ul li {
     width: 100%;
