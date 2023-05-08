@@ -98,12 +98,14 @@ nav > ul {
     float: right;
 }
 
+/*whole nav itself*/
 nav > ul > li {
     text-align: center;
     line-height: 40px;
     margin-left: 70px;
 }
 
+/*design for subtext on the nav*/
 ul > .outer li {
 	list-style-position: inside;
 	list-style-type: none;
@@ -113,6 +115,7 @@ ul > .outer li {
 	margin-left:0px;
 }
 
+/*to make the list or nav align*/
 ul{
 	padding-left:0px;
 	margin-left:-15px;
