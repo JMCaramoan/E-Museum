@@ -115,6 +115,10 @@ ul > .outer li {
 	margin-left:0px;
 }
 
+ul > .outer li:hover {
+	text-decoration: underline;
+}
+
 /*to make the list or nav align*/
 ul{
 	padding-left:0px;
@@ -132,9 +136,9 @@ nav ul li:hover {
 }
 nav ul li:hover > ul {
     display: block;
-}
+	}
 nav ul li:hover > a {
-    color: #777;
+	color: #777;
 }
 nav > ul > li > a {
     cursor: pointer;
