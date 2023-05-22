@@ -2135,7 +2135,7 @@ min-height:400px;
     background-color: #EFE7DA;
  }
  
-
-
-
-
+.flex{
+	width: 100%;
+	height: auto;
+}
