@@ -39,8 +39,11 @@ padding:0;
 margin:0;
 text-align: justify;
 }
-.welcome, .collection_detail, .about_home p {
+.collection_detail, .about_home p {
 	font-family: "Poppins", sans-serif;
+}
+.welcome{
+	font-family: "Aladin", cursive;
 }
 .space_left{
 padding-left:0; 
