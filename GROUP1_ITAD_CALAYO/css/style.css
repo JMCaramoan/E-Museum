@@ -2143,6 +2143,11 @@ min-height:400px;
  .main {
     background-color: #EFE7DA;
  }
+
+.flex{
+	width: 100%;
+	height: auto;
+}
  
 
 
