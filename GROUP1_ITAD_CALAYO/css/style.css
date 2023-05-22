@@ -15,6 +15,10 @@ padding:0;
 margin:0;
 }
 
+h3{
+	font-family:"Aladin", cursive;
+}
+
 a:hover{
 text-decoration:none;
 }
