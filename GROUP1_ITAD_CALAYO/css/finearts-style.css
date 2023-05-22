@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 
 body{
@@ -19,6 +19,7 @@ margin:0;
 list-style:none;
 }
 p{
+font-family: "Poppins", sans-serif;
 padding:0;
 margin:0;
 }
@@ -130,16 +131,16 @@ background:none;
    color:#fff!important; 
    }
 .navbar-collapse .tag_menu:hover{
-  color:#fff!important;
+  color:#a68942!important;
   }
 .navbar-collapse .tag_menu_1:hover{
-  color:#fff!important;
+  color:#a68942!important;
   }
 .navbar-collapse .tag_menu_1:focus{
-  color:#fff!important;
+  color:#a88225!important;
   }
 .navbar-collapse .tag_menu:focus{
-  color:#fff!important;
+  color:#a88225!important;
   }
   
 .navbar-brand{
