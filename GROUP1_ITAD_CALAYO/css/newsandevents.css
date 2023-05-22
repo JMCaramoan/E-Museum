@@ -536,3 +536,30 @@ background:#fff!important;
   background-color: #C1B6A4;
   color: white;
 }
+
+@media (min-width: 320px) {
+      .container {
+        max-width: 320px;
+        margin: 0 auto;
+      }
+    }
+	
+@media (min-width: 480px) {
+      .container {
+        max-width: 480px;
+        margin: 0 auto;
+      }
+    }
+
+@media (min-width: 768px) {
+      .container {
+        max-width: 768px;
+        margin: 0 auto;
+      }
+    }
+
+@media (min-width: 1024px) {
+      .container {
+        max-width: 1024px;
+      }
+    }
